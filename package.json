@@ -18,6 +18,7 @@
   "homepage": "https://github.com/garrib10/Note-Taker#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "jest": "^26.5.3"
   }
 }
