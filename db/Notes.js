@@ -2,7 +2,7 @@ const fs = require("fs");
 const util = require("util");
 
 const readFileAsync = util.promisify(fs.readFile);
-
+const writeFileAysnc = util.promisify(fs.writeFile);
 
 class Notes {
     read() {
@@ -10,7 +10,7 @@ class Notes {
     }
 
     write(note) {
-        return fs.writeFile("db/db.json", JSON.stringify(note))
+        return fs.writeFileAysnc("db/db.json", JSON.stringify(note))
     }
 
     getNotes(){
