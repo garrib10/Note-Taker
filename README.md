@@ -2,7 +2,7 @@
 
 ## Description
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+For this assignment, we were told to make an application on a mysql server that helps you add, post, and delete notes on Note-Taker. We use express to be able to make it work on the mysql server. With that being said we used api/notes to be able to add, post and delete notes in the application.  The criteria is the following: 
 
 * The application frontend has already been created, it's your job to build the backend and connect the two.
 
